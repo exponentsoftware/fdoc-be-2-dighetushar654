@@ -1,0 +1,31 @@
+{
+  "name": "fdoc-be-2-dighetushar654",
+  "version": "1.0.0",
+  "description": "- In the existing APIs that you have created in day 1, add filters to the todo list\r - Get all todo list should be able to have additional filters to :\r   - fetch by category\r   - search by title\r - Add capability to sort the data by created_at\r - Add api to mark Todo as done, can you use an exisiting api to achieve this?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/fdoc-be-2-dighetushar654.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/fdoc-be-2-dighetushar654/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/fdoc-be-2-dighetushar654#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mongoose": "^6.0.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
